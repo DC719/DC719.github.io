@@ -1,3 +1,4 @@
+
 body { padding: 0; margin: 0 }
 #unity-container { position: absolute }
 #unity-container.unity-desktop { left: 50%; top: 50%; transform: translate(-50%, -50%) }
@@ -14,3 +15,26 @@ body { padding: 0; margin: 0 }
 #unity-build-title { float: right; margin-right: 10px; line-height: 38px; font-family: arial; font-size: 18px }
 #unity-fullscreen-button { float: right; width: 38px; height: 38px; background: url('fullscreen-button.png') no-repeat center }
 #unity-warning { position: absolute; left: 50%; top: 5%; transform: translate(-50%); background: white; padding: 10px; display: none }
+.navbar {
+    background-color: #333; /* Background color */
+    overflow: hidden;
+    border: 4mm ridge rgba(211, 220, 50, .6);
+    
+}
+
+/* Style for the navigation bar links */
+.navbar a {
+    float: left; /* Make the links appear horizontally */
+    display: block;
+    color: white; /* Text color */
+    text-align: center;
+    padding: 14px 20px; /* Spacing around the links */
+    text-decoration: none;
+  
+}
+
+/* Change the color of the links on hover */
+.navbar a:hover {
+    background-color: #ffffff;
+    color: black;
+}
